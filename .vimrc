@@ -1,7 +1,8 @@
 " GENERAL
 " ----------------------------------------------------------------------------
-set nocompatible              " be iMproved, required
-filetype off                  " required
+set nocompatible	" be iMproved, required
+set encoding=utf-8
+set laststatus=2	" needed for powerline to show up
 
 " VUNDLE / PLUGINS
 " ----------------------------------------------------------------------------
@@ -9,6 +10,9 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'Vimjas/vim-python-pep8-indent'
+Plugin 'scrooloose/syntastic'
+Plugin 'nvie/vim-flake8'
+Plugin 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
 call vundle#end()            " required
 filetype plugin indent on    " required
 
