@@ -1,20 +1,31 @@
 " ----------------------------------------------------------------------------
-" General
+" general
 " ----------------------------------------------------------------------------
-set nocompatible	" be iMproved
+set nocompatible " make sure we aren't in vi compatible mode
 set encoding=utf-8
-"highlight Normal ctermfg=254 ctermbg=235 " foreground, background colors
-highlight Normal ctermbg=235 " override background color
-syntax on
-filetype indent plugin on
-set number " line numbers
+
+" ----------------------------------------------------------------------------
+" files
+" ----------------------------------------------------------------------------
 set autoread " reload files changed outside vim
+set autochdir " set working dir to current file
 set noswapfile
-set list listchars=tab:\ \ ,trail:· " show trailing whitespace
+
+" ----------------------------------------------------------------------------
 " search
+" ----------------------------------------------------------------------------
 set incsearch " find next match while typing
 set ignorecase " ignore case when searching
 set smartcase " don't ignore case if capital letter typed
+
+" ----------------------------------------------------------------------------
+" appearance
+" ----------------------------------------------------------------------------
+highlight Normal ctermbg=235 " override background color
+set number " line numbers
+highlight LineNr ctermfg=72 " line number color
+syntax on
+set list listchars=tab:\ \ ,trail:· " show trailing whitespace
 
 " ----------------------------------------------------------------------------
 " Python
