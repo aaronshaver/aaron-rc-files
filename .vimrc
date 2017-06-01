@@ -22,9 +22,9 @@ set smartcase " don't ignore case if capital letter typed
 " appearance
 " ----------------------------------------------------------------------------
 colorscheme Tomorrow-Night-Eighties
-set number " line numbers
+set number " show line numbers
 syntax on
-set list listchars=tab:\ \ ,trail:· " show trailing whitespace
+match ErrorMsg '\s\+$' " highlight trailing whitespace using error msg color
 
 " ----------------------------------------------------------------------------
 " Python
