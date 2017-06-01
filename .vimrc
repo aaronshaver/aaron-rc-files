@@ -21,9 +21,8 @@ set smartcase " don't ignore case if capital letter typed
 " ----------------------------------------------------------------------------
 " appearance
 " ----------------------------------------------------------------------------
-highlight Normal ctermbg=235 " override background color
+colorscheme Tomorrow-Night-Eighties
 set number " line numbers
-highlight LineNr ctermfg=72 " line number color
 syntax on
 set list listchars=tab:\ \ ,trail:· " show trailing whitespace
 
