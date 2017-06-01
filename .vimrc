@@ -10,6 +10,8 @@ set encoding=utf-8
 set autoread " reload files changed outside vim
 set autochdir " set working dir to current file
 set noswapfile
+set path+=** " search subfolders, tab-completion for :find command
+set wildmenu " display all matching files when tab completing
 
 " ----------------------------------------------------------------------------
 " search
