@@ -25,6 +25,7 @@ set smartcase " don't ignore case if capital letter typed
 " ----------------------------------------------------------------------------
 colorscheme Tomorrow-Night-Eighties
 set number " show line numbers
+set relativenumber " relative line numbers
 syntax on
 match ErrorMsg '\s\+$' " highlight trailing whitespace using error msg color
 
