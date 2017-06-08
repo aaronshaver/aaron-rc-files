@@ -5,7 +5,7 @@ set nocompatible " make sure we aren't in vi compatible mode
 set encoding=utf-8
 
 " ----------------------------------------------------------------------------
-" tabs
+" keyboard aliases 
 " ----------------------------------------------------------------------------
 nnoremap tn :tabnew<Space>
 
@@ -32,6 +32,13 @@ set number " show line numbers
 set relativenumber " relative line numbers
 syntax on
 match ErrorMsg '\s\+$' " highlight trailing whitespace using error msg color
+
+" ----------------------------------------------------------------------------
+" tabs for all file types 
+" ----------------------------------------------------------------------------
+set expandtab " insert spaces instead of tabs
+set tabstop=4
+set shiftwidth=4
 
 " ----------------------------------------------------------------------------
 " Python
