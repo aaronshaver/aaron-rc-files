@@ -31,9 +31,10 @@ colorscheme Tomorrow-Night-Eighties
 set number " show line numbers
 syntax on
 match ErrorMsg '\s\+$' " highlight trailing whitespace using error msg color
+set cursorline " highlight current line
 
 " ----------------------------------------------------------------------------
-" tabs for all file types 
+" tabs for all file types
 " ----------------------------------------------------------------------------
 set expandtab " insert spaces instead of tabs
 set tabstop=4
