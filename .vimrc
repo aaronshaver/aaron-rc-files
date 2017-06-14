@@ -5,7 +5,7 @@ set nocompatible " make sure we aren't in vi compatible mode
 set encoding=utf-8
 
 " ----------------------------------------------------------------------------
-" keyboard aliases 
+" keyboard aliases
 " ----------------------------------------------------------------------------
 nnoremap tn :tabnew<Space>
 
@@ -29,6 +29,7 @@ set smartcase " don't ignore case if capital letter typed
 " ----------------------------------------------------------------------------
 colorscheme Tomorrow-Night-Eighties
 set number " show line numbers
+set relativenumber
 syntax on
 match ErrorMsg '\s\+$' " highlight trailing whitespace using error msg color
 set cursorline " highlight current line
