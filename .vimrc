@@ -33,6 +33,7 @@ set relativenumber
 syntax on
 match ErrorMsg '\s\+$' " highlight trailing whitespace using error msg color
 set cursorline " highlight current line
+set colorcolumn=79
 
 " ----------------------------------------------------------------------------
 " tab behavior for all file types
