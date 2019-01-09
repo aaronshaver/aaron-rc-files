@@ -12,7 +12,7 @@ Run the command listed at:
 
 In iTerm > Preferences > Profiles > Colors > Color Presets > set to Solarized Dark 
 
-Go here to install the Powerline fonts via a shell script:
+Go here to install the Powerline fonts via the shell script code they show in their README:
 
     https://github.com/powerline/fonts
 
