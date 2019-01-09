@@ -9,3 +9,7 @@ https://www.iterm2.com/
 Run the command listed at:
 
 https://ohmyz.sh/
+
+## Customizing iTerm 2
+
+https://gist.github.com/kevin-smets/8568070
