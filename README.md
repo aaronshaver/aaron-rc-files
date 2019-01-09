@@ -1,15 +1,21 @@
-## Mac 256 colors
+## Install iTerm 2
 
-If you're on macOS, install and use iTerm 2 for better color support (default Terminal app is limited to 16 colors):
+    brew cask install iterm2
 
-https://www.iterm2.com/
-
-## Zsh
+## Install Zsh
 
 Run the command listed at:
 
-https://ohmyz.sh/
+    https://ohmyz.sh/
 
 ## Customizing iTerm 2
 
-https://gist.github.com/kevin-smets/8568070
+In iTerm > Preferences > Profiles > Colors > Color Presets > set to Solarized Dark 
+
+Go here to install the Powerline fonts via a shell script:
+
+    https://github.com/powerline/fonts
+
+Then in iTerm > Preferences > Profiles > Text > Change Font to:
+
+    18pt Roboto Mono Medium for Powerline
