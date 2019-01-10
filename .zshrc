@@ -98,3 +98,4 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 source /usr/local/opt/powerlevel9k/powerlevel9k.zsh-theme
 DEFAULT_USER=ashaver
+POWERLEVEL9K_SHORTEN_DIR_LENGTH=2
