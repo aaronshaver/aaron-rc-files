@@ -13,3 +13,13 @@ In iTerm > Preferences > Profiles > Colors > Color Presets > set to Solarized Da
 Go here to install the Powerline fonts via the shell script code they show in their README: https://github.com/powerline/fonts
 
 Then in iTerm > Preferences > Profiles > Text > Change Font to: 18pt Roboto Mono Medium for Powerline
+
+Powerlevel9k:
+
+First get the homebrew tap
+
+    brew tap sambadevi/powerlevel9k
+
+Then install powerlevel9k via brew
+
+    brew install powerlevel9k
