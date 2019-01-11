@@ -99,3 +99,4 @@ source $ZSH/oh-my-zsh.sh
 source /usr/local/opt/powerlevel9k/powerlevel9k.zsh-theme
 DEFAULT_USER=ashaver
 POWERLEVEL9K_SHORTEN_DIR_LENGTH=2
+ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE=fg=238
