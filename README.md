@@ -23,3 +23,7 @@ First get the homebrew tap
 Then install powerlevel9k via brew
 
     brew install powerlevel9k
+    
+Install Zsh autosuggestions
+
+    https://github.com/zsh-users/zsh-autosuggestions
