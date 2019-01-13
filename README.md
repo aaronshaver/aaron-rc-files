@@ -20,11 +20,6 @@ powerlevel9k theme for zsh:
     brew tap sambadevi/powerlevel9k
     brew install powerlevel9k
 
-## Use these zsh tips.
-
-* Change to recent directories more easily with the `z` command
-* Use vi mode in zsh: https://github.com/robbyrussell/oh-my-zsh/blob/master/plugins/vi-mode/README.md
-
 ## Configure iTerm2.
 
 Change the theme: iTerm > Preferences > Profiles > Colors > Color Presets > Solarized Dark 
@@ -32,7 +27,16 @@ Change the theme: iTerm > Preferences > Profiles > Colors > Color Presets > Sola
 Install Powerline fonts (see the shell script code in the README): https://github.com/powerline/fonts
 
 Change the font: iTerm > Preferences > Profiles > Text > 18pt Roboto Mono Medium for Powerline
-    
-## Find useful resources here.
+
+## Use these zsh tips.
+
+* Change to recent directories more easily with the `z` command
+* Use vi mode in zsh: https://github.com/robbyrussell/oh-my-zsh/blob/master/plugins/vi-mode/README.md
+
+## Use these general tips.
+
+* Get more useful help with tldr: https://github.com/tldr-pages/tldr
+
+## Check out these additional resources.
 
 * 256 color Xterm color chart: https://upload.wikimedia.org/wikipedia/commons/1/15/Xterm_256color_chart.svg
