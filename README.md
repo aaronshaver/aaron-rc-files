@@ -1,10 +1,24 @@
+# Make your MacOS terminal and shell AWESOME
+
+## Install the Homebrew package manager
+
+https://brew.sh/
+
 ## Install iTerm 2
+
+The default terminal for MacOS is limited; for example, it can't do more than 16 colors. Fix that:
 
     brew cask install iterm2
 
 ## Install Zsh
 
 Run the cURL command listed on this page: https://ohmyz.sh/
+
+### Change to recent directories more easily with the 'z' command
+
+"With the z command, you can navigate to a frequently/recently visited directory just by typing z , followed by the directory name." 
+
+(from: https://sunlightmedia.org/bash-vs-zsh/)
 
 ## Customizing iTerm 2
 
