@@ -17,8 +17,8 @@ zsh-autosuggestions: `git clone https://github.com/zsh-users/zsh-autosuggestions
 
 powerlevel9k theme for zsh:
 
-* `brew tap sambadevi/powerlevel9k`
-* `brew install powerlevel9k`
+    brew tap sambadevi/powerlevel9k
+    brew install powerlevel9k
 
 ## Zsh tips
 
