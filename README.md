@@ -1,8 +1,11 @@
-# Make your macOS terminal and shell AWESOME.
+# Make your macOS terminal and shell awesome.
 
 ## Install these programs.
 
-* Homebrew, a package manager for macOS: https://brew.sh/
+Homebrew:
+
+a package manager for macOS: https://brew.sh/
+
 * iTerm2, a modern replacement for the default terminal: `brew cask install iterm2`
 * Make sure zsh is up to date: `brew install zsh`
 * Oh My Zsh, a framework for managing zsh: https://ohmyz.sh/
