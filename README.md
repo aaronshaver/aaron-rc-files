@@ -23,7 +23,7 @@ powerlevel9k theme for zsh:
 ## Use these zsh tips.
 
 * Change to recent directories more easily with the `z` command
-* 
+* Use vi mode in zsh: https://github.com/robbyrussell/oh-my-zsh/blob/master/plugins/vi-mode/README.md
 
 ## Configure iTerm2.
 
