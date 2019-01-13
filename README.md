@@ -2,18 +2,23 @@
 
 ## Install these programs.
 
-Homebrew:
+Homebrew, a package manager for macOS: https://brew.sh/
 
-a package manager for macOS: https://brew.sh/
+iTerm2, a modern replacement for the default terminal: `brew cask install iterm2`
 
-* iTerm2, a modern replacement for the default terminal: `brew cask install iterm2`
-* Make sure zsh is up to date: `brew install zsh`
-* Oh My Zsh, a framework for managing zsh: https://ohmyz.sh/
-* If `echo $SHELL` does not show zsh, switch to it with: `chsh -s /bin/zsh`
-* zsh-autosuggestions: `git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions`
-* powerlevel9k theme for zsh:
-    * `brew tap sambadevi/powerlevel9k`
-    * `brew install powerlevel9k`
+Make sure zsh is up to date: `brew install zsh`
+
+Oh My Zsh, a framework for managing zsh: https://ohmyz.sh/
+
+
+If `echo $SHELL` does not show zsh, switch to it with: `chsh -s /bin/zsh`
+
+zsh-autosuggestions: `git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions`
+
+powerlevel9k theme for zsh:
+
+* `brew tap sambadevi/powerlevel9k`
+* `brew install powerlevel9k`
 
 ## Zsh tips
 
