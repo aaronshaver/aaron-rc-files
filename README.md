@@ -20,7 +20,7 @@ powerlevel9k theme for zsh:
     brew tap sambadevi/powerlevel9k
     brew install powerlevel9k
 
-## Zsh tips
+## Use these zsh tips.
 
 * Change to recent directories more easily with the `z` command
 * 
