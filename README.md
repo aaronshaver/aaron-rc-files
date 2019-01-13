@@ -27,9 +27,11 @@ powerlevel9k theme for zsh:
 
 ## Configure iTerm2.
 
-1. In iTerm > Preferences > Profiles > Colors > Color Presets > set to Solarized Dark 
-2. Go here to install the Powerline fonts via the shell script code they show in their README: https://github.com/powerline/fonts
-3. In iTerm > Preferences > Profiles > Text > Change Font to: `18pt Roboto Mono Medium for Powerline` (or your preferred font)
+In iTerm > Preferences > Profiles > Colors > Color Presets > set to Solarized Dark 
+
+Go here to install the Powerline fonts via the shell script code they show in their README: https://github.com/powerline/fonts
+
+In iTerm > Preferences > Profiles > Text > Change Font to: `18pt Roboto Mono Medium for Powerline` (or your preferred font)
     
 ## Find useful resources here.
 
