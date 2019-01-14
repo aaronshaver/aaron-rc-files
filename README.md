@@ -10,9 +10,6 @@ Make sure zsh is up to date: `brew install zsh`
 
 Oh My Zsh, a framework for managing zsh: https://ohmyz.sh/
 
-
-If `echo $SHELL` does not show zsh, switch to it with: `chsh -s /bin/zsh`
-
 zsh-autosuggestions: `git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions`
 
 powerlevel9k theme for zsh:
