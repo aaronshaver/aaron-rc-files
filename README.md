@@ -10,7 +10,7 @@ Make sure zsh is up to date: `brew install zsh`
 
 Oh My Zsh, a framework for managing zsh: https://ohmyz.sh/
 
-zsh-autosuggestions: `git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions`
+zsh-autosuggestions: `git clone https://github.com/zsh-users/zsh-autosuggestions ~/.zsh/zsh-autosuggestions`
 
 powerlevel9k theme for zsh:
 
