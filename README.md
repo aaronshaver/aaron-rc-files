@@ -29,6 +29,7 @@ Change the font: iTerm > Preferences > Profiles > Text > 18pt Roboto Mono Medium
 
 * Change to recent directories more easily with the `z` command
 * Use vi mode in zsh: https://github.com/robbyrussell/oh-my-zsh/blob/master/plugins/vi-mode/README.md
+* To run a Bash command: `bash -c <your command and args>`
 
 ## Use these general tips.
 
