@@ -16,6 +16,10 @@ powerlevel9k theme for zsh:
 
     brew tap sambadevi/powerlevel9k
     brew install powerlevel9k
+    
+tldr, a more useful alernative to man pages:
+
+    npm install -g tldr
 
 ## Configure iTerm2.
 
