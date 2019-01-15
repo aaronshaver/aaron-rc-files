@@ -29,11 +29,12 @@ Install Powerline fonts (see the shell script code in the README): https://githu
 
 Change the font: iTerm > Preferences > Profiles > Text > 18pt Roboto Mono Medium for Powerline
 
-## Use these zsh tips.
+## Use these tips.
 
-* Change to recent directories more easily with the `z` command
 * Use vi mode in zsh: https://github.com/robbyrussell/oh-my-zsh/blob/master/plugins/vi-mode/README.md
 * To run a Bash command: `bash -c <your command and args>`
+* You can copy text into the macOS clipboard buffer by simply highlighting text with the mouse in iTerm2
+* Re-run your last sudo command with `sudo !!`
 
 ## Use these general tips.
 
