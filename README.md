@@ -1,4 +1,4 @@
-# Make your macOS terminal and shell awesome.
+# Make your macOS terminal and shell experience awesome.
 
 ## Install these programs.
 
@@ -28,7 +28,9 @@ Install Powerline fonts (see the shell script code in the README): https://githu
 
 Change the font: iTerm > Preferences > Profiles > Text > 18pt Roboto Mono Medium for Powerline
 
-## Use these tips.
+Note, if you want to customize colors in .zshrc, use this 256 color Xterm color chart: https://upload.wikimedia.org/wikipedia/commons/1/15/Xterm_256color_chart.svg
+
+## Commandline reference
 
 ### grep
 
@@ -41,7 +43,3 @@ recursive search in current directory: `grep search_term -r .`
 * You can copy text into the macOS clipboard buffer by simply highlighting text with the mouse in iTerm2
 * Re-run your last sudo command with `sudo !!`
 * Get more useful help with tldr: `tldr <command>`
-
-## Check out these additional resources.
-
-* 256 color Xterm color chart: https://upload.wikimedia.org/wikipedia/commons/1/15/Xterm_256color_chart.svg
