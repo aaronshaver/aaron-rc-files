@@ -12,11 +12,10 @@ Oh My Zsh, a framework for managing zsh: https://ohmyz.sh/
 
 zsh-autosuggestions: `git clone https://github.com/zsh-users/zsh-autosuggestions ~/.zsh/zsh-autosuggestions`
 
-powerlevel9k theme for zsh:
+powerlevel9k theme for zsh (installed oh-my-zsh style):
 
-    brew tap sambadevi/powerlevel9k
-    brew install powerlevel9k
-    
+    git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k
+
 tldr, a more useful alernative to man pages:
 
     npm install -g tldr
