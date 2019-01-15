@@ -35,10 +35,7 @@ Change the font: iTerm > Preferences > Profiles > Text > 18pt Roboto Mono Medium
 * To run a Bash command: `bash -c <your command and args>`
 * You can copy text into the macOS clipboard buffer by simply highlighting text with the mouse in iTerm2
 * Re-run your last sudo command with `sudo !!`
-
-## Use these general tips.
-
-* Get more useful help with tldr: https://github.com/tldr-pages/tldr
+* Get more useful help with tldr: `tldr <command>`
 
 ## Check out these additional resources.
 
