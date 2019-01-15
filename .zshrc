@@ -24,6 +24,7 @@ DEFAULT_USER=ashaver
 POWERLEVEL9K_SHORTEN_DIR_LENGTH=2
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE=fg=238
 
+alias ..="cd .."
 alias c='clear'
 alias g='git'
 alias h='history'
