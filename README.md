@@ -30,6 +30,12 @@ Change the font: iTerm > Preferences > Profiles > Text > 18pt Roboto Mono Medium
 
 ## Use these tips.
 
+### grep
+
+recursive search in current directory: `grep search_term -r .`
+
+### other
+
 * Use vi mode in zsh: https://github.com/robbyrussell/oh-my-zsh/blob/master/plugins/vi-mode/README.md
 * To run a Bash command: `bash -c <your command and args>`
 * You can copy text into the macOS clipboard buffer by simply highlighting text with the mouse in iTerm2
