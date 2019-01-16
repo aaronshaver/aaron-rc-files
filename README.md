@@ -22,13 +22,9 @@ tldr, a more useful alernative to man pages:
 
 ## Configure iTerm2.
 
-Change the theme: iTerm > Preferences > Profiles > Colors > Color Presets > Solarized Dark 
-
-Install Powerline fonts (see the shell script code in the README): https://github.com/powerline/fonts
-
-Change the font: iTerm > Preferences > Profiles > Text > 18pt Roboto Mono Medium for Powerline
-
-Note, if you want to customize colors in .zshrc, use this 256 color Xterm color chart: https://upload.wikimedia.org/wikipedia/commons/1/15/Xterm_256color_chart.svg
+1. Change the theme: first import the .itermcolors file (iTerm > Preferences > Profiles > Colors > Color Presets > Import), then switch to it
+1. Install Powerline fonts (see the shell script code in the README): https://github.com/powerline/fonts
+1. Change the font: iTerm > Preferences > Profiles > Text > 18pt Roboto Mono Medium for Powerline
 
 ## Commandline reference
 
