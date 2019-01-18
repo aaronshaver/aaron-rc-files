@@ -17,16 +17,18 @@ ZSH_THEME="powerlevel9k/powerlevel9k"
 
 DEFAULT_USER=ashaver
 
-POWERLEVEL9K_SHORTEN_DIR_LENGTH=2
-POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(context dir vcs)
-POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(load ram vi_mode)
-POWERLEVEL9K_DATE_FORMAT=%D{%m/%d}
+POWERLEVEL9K_SHORTEN_DIR_LENGTH=1
 
-POWERLEVEL9K_PROMPT_ON_NEWLINE=true
-POWERLEVEL9K_RPROMPT_ON_NEWLINE=true
+POWERLEVEL9K_DISABLE_RPROMPT=true
+POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(vi_mode history dir vcs status)
 
 alias ..="cd .."
 alias c='clear'
 alias g='git'
+alias gp='g pull'
+alias gs='g status'
+alias gl='g log'
+alias gd='g diff'
+alias gc='g clean -f'
 alias h='history'
 alias l='ls -la'
