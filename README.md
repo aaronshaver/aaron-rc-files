@@ -30,18 +30,10 @@ tldr, a more useful alernative to man pages:
 
 ## General tips
 
-* How to use vi mode in zsh: https://github.com/robbyrussell/oh-my-zsh/blob/master/plugins/vi-mode/README.md
+* Access vi-mode to edit your commandline by hitting `esc`; hit `i` to go back to insert mode
+* Use these git aliases: https://github.com/robbyrussell/oh-my-zsh/wiki/Plugin:git#aliases
 * To run a Bash command as it would run in Bash (instead of zsh): `bash -c <your command and args>`
 * Get more useful help with tldr: `tldr <command>`
-
-### Speed up commandline use.
-
 * You can copy text into the macOS clipboard buffer by simply highlighting text with the mouse in iTerm2
-* Re-run your last sudo command with `sudo !!`
 * Do `CTRL-U` to clear the current line without sending a SIGINT as `CTRL-C` would do
-
-## Specific commands
-
-### grep
-
-recursive search in current directory: `grep search_term -r .`
+* recursive text search in current directory: `grep search_term -r .`
