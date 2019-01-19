@@ -12,6 +12,12 @@ plugins=(
   git
 )
 
+# For some reason this is needed, otherwise I wasn't getting
+# it to activate vi-mode with escape
+bindkey -v
+# preserve one of the normal readline mappings that I use
+bindkey '^u' kill-whole-line
+
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 ZSH_THEME="powerlevel9k/powerlevel9k"
 
@@ -29,6 +35,6 @@ alias gp='g pull'
 alias gs='g status'
 alias gl='g log'
 alias gd='g diff'
-alias gc='g clean -f'
+alias gc='g clean -fd'
 alias h='history'
 alias l='ls -la'
