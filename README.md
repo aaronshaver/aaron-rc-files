@@ -4,23 +4,13 @@ This document is oriented toward macOS users, though large parts of it will appl
 
 ## Install these programs.
 
-Homebrew, a package manager for macOS: https://brew.sh/
-
-iTerm2, a modern replacement for the default terminal: `brew cask install iterm2`
-
-Make sure zsh is up to date: `brew install zsh`
-
-Oh My Zsh, a framework for managing zsh: https://ohmyz.sh/
-
-zsh-autosuggestions: `git clone https://github.com/zsh-users/zsh-autosuggestions ~/.zsh/zsh-autosuggestions`
-
-powerlevel9k theme for zsh (installed oh-my-zsh style):
-
-    git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k
-
-tldr, a more useful alernative to man pages:
-
-    npm install -g tldr
+1. Homebrew, a package manager for macOS: https://brew.sh/
+1. iTerm2, a modern replacement for the default terminal: `brew cask install iterm2`
+1. Make sure zsh is up to date: `brew install zsh`
+1. Oh My Zsh, a framework for managing zsh: https://ohmyz.sh/
+1. zsh-autosuggestions: `git clone https://github.com/zsh-users/zsh-autosuggestions ~/.zsh/zsh-autosuggestions`
+1. powerlevel9k theme for zsh (installed oh-my-zsh style): `git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k`
+1. tldr, a more useful alernative to man pages: `npm install -g tldr`
 
 ## Configure iTerm2.
 
