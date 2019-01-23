@@ -37,4 +37,13 @@ This document is oriented toward macOS users, though large parts of it will appl
 
 From: https://github.com/robbyrussell/oh-my-zsh/wiki/Plugin:git#aliases
 
+* `gaa` git add --all
+* `gba`	git branch -a
+* `gc` git commit -v
+* `gclean`	git clean -df (cleans uncommitted files only)
+* `gcm`	git checkout master
 * `gl` git pull
+* `gpristine`	git reset --hard && git clean -dfx (cleans everything, including .gitignore files)
+* `gpsup` git push --set-upstream origin $(current_branch)
+* `gra` git remote add
+* `gsb`	git status -sb
