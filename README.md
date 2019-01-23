@@ -11,6 +11,7 @@ This document is oriented toward macOS users, though large parts of it will appl
 1. zsh-autosuggestions: `git clone https://github.com/zsh-users/zsh-autosuggestions ~/.zsh/zsh-autosuggestions`
 1. powerlevel9k theme for zsh (installed oh-my-zsh style): `git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k`
 1. tldr, a more useful alernative to man pages: `npm install -g tldr`
+1. tig, a better way to visualize Git history: `brew install tig`
 
 ## Configure iTerm2.
 
@@ -20,6 +21,7 @@ This document is oriented toward macOS users, though large parts of it will appl
 
 ## General tips
 
+* Use `tig` to visualize Git history
 * Access vi-mode to edit your commandline by hitting `esc`; hit `i` to go back to insert mode
 * Use these git aliases: https://github.com/robbyrussell/oh-my-zsh/wiki/Plugin:git#aliases
 * To run a Bash command as it would run in Bash (instead of zsh): `bash -c <your command and args>`
