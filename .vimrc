@@ -62,5 +62,6 @@ au BufNewFile,BufRead *.py
 " YAML
 " ----------------------------------------------------------------------------
 au FileType yaml setlocal tabstop=2 expandtab shiftwidth=2 softtabstop=2
+au FileType yml setlocal tabstop=2 expandtab shiftwidth=2 softtabstop=2
 
 set clipboard=unnamed
