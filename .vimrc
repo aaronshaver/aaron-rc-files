@@ -34,6 +34,11 @@ match ErrorMsg '\s\+$' " highlight trailing whitespace using error msg color
 set cursorline " highlight current line
 set colorcolumn=79
 
+" change cursor shape per-mode
+let &t_SI = "\<Esc>]50;CursorShape=1\x7"
+let &t_SR = "\<Esc>]50;CursorShape=2\x7"
+let &t_EI = "\<Esc>]50;CursorShape=0\x7"
+
 " ----------------------------------------------------------------------------
 " tab behavior for all file types
 " ----------------------------------------------------------------------------
@@ -57,3 +62,5 @@ au BufNewFile,BufRead *.py
 " YAML
 " ----------------------------------------------------------------------------
 au FileType yaml setlocal tabstop=2 expandtab shiftwidth=2 softtabstop=2
+
+set clipboard=unnamed
