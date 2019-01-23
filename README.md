@@ -23,13 +23,18 @@ This document is oriented toward macOS users, though large parts of it will appl
 
 * `terraform init <dir>` then `terraform plan <dir>` then `terraform apply <dir>` applies the Terraform .tf files for <dir>
 * `go test -v ./...` recursively runs tests in a directory containing .go files
-* ``gra user@domain:<org name>/<project name>.git` adds an upstream remote to a Git config
+* `gra user@domain:<org name>/<project name>.git` adds an upstream remote to a Git config
 * `top -o cpu` runs top sorting by most-CPU-usage first
-* Use `tig` to visualize Git history
-* Access vi-mode to edit your commandline by hitting `esc`; hit `i` to go back to insert mode
-* Use these git aliases: https://github.com/robbyrussell/oh-my-zsh/wiki/Plugin:git#aliases
+* `tig` visualizes Git history in a better way
+* `esc` and `i` on the commandline enters and exits vi-mode to edit your commandline
 * To run a Bash command as it would run in Bash (instead of zsh): `bash -c <your command and args>`
 * Get more useful help with tldr: `tldr <command>`
 * You can copy text into the macOS clipboard buffer by simply highlighting text with the mouse in iTerm2
 * `CTRL-U` clears the current line without sending a SIGINT as `CTRL-C` would do
 * `grep search_term -r .` recursively searches for a string in files in the current directory
+
+## oh-my-zsh Git plugin aliases
+
+From: https://github.com/robbyrussell/oh-my-zsh/wiki/Plugin:git#aliases
+
+* `gl` git pull
