@@ -1,5 +1,5 @@
 # Path to your oh-my-zsh installation.
-export ZSH="/Users/ashaver/.oh-my-zsh"
+export ZSH="/Users/$(whoami)/.oh-my-zsh"
 
 # Standard plugins can be found in ~/.oh-my-zsh/plugins/*
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
@@ -16,7 +16,7 @@ source /usr/local/opt/powerlevel9k/powerlevel9k.zsh-theme
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 ZSH_THEME="powerlevel9k/powerlevel9k"
 
-DEFAULT_USER=ashaver
+DEFAULT_USER=$(whoami)
 
 POWERLEVEL9K_SHORTEN_DIR_LENGTH=1
 
@@ -28,3 +28,5 @@ bindkey '^u' kill-whole-line
 
 alias c='clear'
 alias h='history'
+
+source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
