@@ -26,7 +26,5 @@ POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(vi_mode history dir vcs status)
 # preserve CTRL-U (clear line) even after entering and exiting vi-mode
 bindkey '^u' kill-whole-line
 
-alias ..="cd .."
 alias c='clear'
 alias h='history'
-alias l='ls -ahl'
