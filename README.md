@@ -12,6 +12,7 @@ This document is oriented toward macOS users, though large parts of it will appl
 1. powerlevel9k theme for zsh (installed oh-my-zsh style): `git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k`
 1. tldr, a more useful alernative to man pages: `npm install -g tldr`
 1. tig, a better way to visualize Git history: `brew install tig`
+1. `brew install zsh-syntax-highlighting`
 
 ## Configure iTerm2.
 
