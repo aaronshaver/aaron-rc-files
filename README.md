@@ -21,6 +21,7 @@ This document is oriented toward macOS users, though large parts of it will appl
 
 ## General tips
 
+* `dirs -v` in zsh lists the most recent 20 directories
 * `%s/<your phrase>//gn` in Vim counts the number of matches for a search
 * `terraform init <dir>` then `terraform plan <dir>` then `terraform apply <dir>` applies the Terraform .tf files for <dir>
 * `go test -v ./...` recursively runs tests in a directory containing .go files
