@@ -28,5 +28,6 @@ bindkey '^u' kill-whole-line
 
 alias c='clear'
 alias h='history'
+alias l='la'
 
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
