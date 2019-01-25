@@ -45,17 +45,18 @@ This document is oriented toward macOS users, though large parts of it will appl
 * `d` dirs -v | head -10 (list most recent 10 dirs)
 * `1`, `2`, `3`, etc. changes to that number in the `dir -v` history
 
-## oh-my-zsh Git plugin aliases
+## Git commands, and oh-my-zsh Git plugin aliases
 
 From: https://github.com/robbyrussell/oh-my-zsh/wiki/Plugin:git#aliases
 
 * `gaa` git add --all
 * `gba`	git branch -a
 * `gc` git commit -v
-* `gclean`	git clean -df (cleans uncommitted files only)
+* `gclean`	git clean -df (force clean untracked directories and untracked files, i.e. those not added/staged yet)
 * `gcm`	git checkout master
+* `git clean -x` remove any files matching lines in .gitignore
 * `gl` git pull
-* `gpristine`	git reset --hard && git clean -dfx (cleans everything, including .gitignore files)
 * `gpsup` git push --set-upstream origin $(current_branch)
 * `gra` git remote add
+* `grh -- <file or dir>` remove a file or directory from staging (i.e. undo a `git add`)
 * `gsb`	git status -sb
