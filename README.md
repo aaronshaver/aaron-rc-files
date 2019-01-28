@@ -19,6 +19,7 @@ This document is oriented toward macOS users, though large parts of it will appl
 1. Change the theme: first import the .itermcolors file (iTerm > Preferences > Profiles > Colors > Color Presets > Import), then switch to it
 1. Install Powerline fonts (see the shell script code in the README): https://github.com/powerline/fonts
 1. Change the font: iTerm > Preferences > Profiles > Text > 18pt Roboto Mono Medium for Powerline
+1. (Hint: set IntelliJ or other IDEs/editors to the same font)
 
 ## General tips
 
