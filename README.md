@@ -57,6 +57,7 @@ From: https://github.com/robbyrussell/oh-my-zsh/wiki/Plugin:git#aliases
 * `gcm`	git checkout master
 * `git clean -x` remove any files matching lines in .gitignore
 * `gl` git pull
+* `glol` glol	git log --graph --pretty = format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
 * `gpsup` git push --set-upstream origin $(current_branch)
 * `gra` git remote add
 * `grh -- <file or dir>` remove a file or directory from staging (i.e. undo a `git add`)
