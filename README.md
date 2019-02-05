@@ -53,8 +53,10 @@ From: https://github.com/robbyrussell/oh-my-zsh/wiki/Plugin:git#aliases
 * `gaa` git add --all
 * `gba`	git branch -a
 * `gc` git commit -v
+* `gcl` git clone --recursive
 * `gclean`	git clean -df (force clean untracked directories and untracked files, i.e. those not added/staged yet)
 * `gcm`	git checkout master
+* `gco`	git checkout
 * `git clean -x` remove any files matching lines in .gitignore
 * `gl` git pull
 * `glol` git log --graph --pretty = format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
