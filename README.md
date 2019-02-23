@@ -46,7 +46,7 @@ This document is oriented toward macOS users, though large parts of it will appl
 * `d` dirs -v | head -10 (list most recent 10 dirs)
 * `1`, `2`, `3`, etc. changes to that number in the `dir -v` history
 
-## Git commands, and oh-my-zsh Git plugin aliases
+## Oh-my-zsh Git plugin aliases
 
 From: https://github.com/robbyrussell/oh-my-zsh/wiki/Plugin:git#aliases
 
