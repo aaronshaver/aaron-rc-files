@@ -25,7 +25,7 @@ This document is oriented toward macOS users, though large parts of it will appl
 
 * `dirs -v` in zsh lists the most recent 20 directories
 * `%s/<your phrase>//gn` in Vim counts the number of matches for a search
-* `terraform init <dir>` then `terraform plan <dir>` then `terraform apply <dir>` applies the Terraform .tf files for <dir>
+* `terraform init <dir>` then `terraform plan <dir>` then `terraform apply <dir>` applies the Terraform .tf files for `<dir>`
 * `go test -v ./...` recursively runs tests in a directory containing .go files
 * `gra user@domain:<org name>/<project name>.git` adds an upstream remote to a Git config
 * `top -o cpu` runs top sorting by most-CPU-usage first
@@ -46,7 +46,7 @@ This document is oriented toward macOS users, though large parts of it will appl
 * `d` dirs -v | head -10 (list most recent 10 dirs)
 * `1`, `2`, `3`, etc. changes to that number in the `dir -v` history
 
-## Oh-my-zsh Git plugin aliases
+## Git commands and Oh My Zsh Git plugin aliases
 
 From: https://github.com/robbyrussell/oh-my-zsh/wiki/Plugin:git#aliases
 
