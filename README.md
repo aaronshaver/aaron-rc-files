@@ -24,7 +24,6 @@ This document is oriented toward macOS users, though large parts of it will appl
 ## General tips
 
 * `dirs -v` in zsh lists the most recent 20 directories
-* `%s/<your phrase>//gn` in Vim counts the number of matches for a search
 * `terraform init <dir>` then `terraform plan <dir>` then `terraform apply <dir>` applies the Terraform .tf files for `<dir>`
 * `go test -v ./...` recursively runs tests in a directory containing .go files
 * `gra user@domain:<org name>/<project name>.git` adds an upstream remote to a Git config
@@ -36,6 +35,14 @@ This document is oriented toward macOS users, though large parts of it will appl
 * You can copy text into the macOS clipboard buffer by simply highlighting text with the mouse in iTerm2
 * `CTRL-U` clears the current line without sending a SIGINT as `CTRL-C` would do
 * `grep search_term -r .` recursively searches for a string in files in the current directory
+
+## Vim
+
+* Open two files and compare them side-by-side:
+  1. `vim -O file1 file2`
+  2. `ctrl w w` to switch between panes
+  3. `:qa` to quit all panes
+* `%s/<your phrase>//gn` in Vim counts the number of matches for a search
 
 ## zsh
 
