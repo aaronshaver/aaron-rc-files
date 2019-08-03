@@ -24,9 +24,6 @@ This document is oriented toward macOS users, though large parts of it will appl
 ## General tips
 
 * `dirs -v` in zsh lists the most recent 20 directories
-* `terraform init <dir>` then `terraform plan <dir>` then `terraform apply <dir>` applies the Terraform .tf files for `<dir>`
-* `go test -v ./...` recursively runs tests in a directory containing .go files
-* `gra user@domain:<org name>/<project name>.git` adds an upstream remote to a Git config
 * `top -o cpu` runs top sorting by most-CPU-usage first
 * `tig` visualizes Git history in a better way
 * `esc` and `i` on the commandline enters and exits vi-mode to edit your commandline
@@ -52,22 +49,3 @@ This document is oriented toward macOS users, though large parts of it will appl
 * `la` ls -lAh
 * `d` dirs -v | head -10 (list most recent 10 dirs)
 * `1`, `2`, `3`, etc. changes to that number in the `dir -v` history
-
-## Git commands and Oh My Zsh Git plugin aliases
-
-From: https://github.com/robbyrussell/oh-my-zsh/wiki/Plugin:git#aliases
-
-* `gaa` git add --all
-* `gba`	git branch -a
-* `gc` git commit -v
-* `gcl` git clone --recursive
-* `gclean`	git clean -df (force clean untracked directories and untracked files, i.e. those not added/staged yet)
-* `gcm`	git checkout master
-* `gco`	git checkout
-* `git clean -x` remove any files matching lines in .gitignore
-* `gl` git pull
-* `glol` git log --graph --pretty = format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
-* `gpsup` git push --set-upstream origin $(current_branch)
-* `gra` git remote add
-* `grh -- <file or dir>` remove a file or directory from staging (i.e. undo a `git add`)
-* `gsb`	git status -sb
