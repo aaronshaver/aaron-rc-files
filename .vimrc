@@ -65,3 +65,12 @@ au FileType yaml setlocal tabstop=2 expandtab shiftwidth=2 softtabstop=2
 au FileType yml setlocal tabstop=2 expandtab shiftwidth=2 softtabstop=2
 
 set clipboard=unnamed
+
+" ----------------------------------------------------------------------------
+" GVIM junk
+" ----------------------------------------------------------------------------
+
+if has("gui_running")
+  set guifont=Lucida_Console:h14:cANSI:qDRAFT
+  set guioptions -=T
+endif
