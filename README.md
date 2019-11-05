@@ -1,8 +1,8 @@
-# Make your terminal and shell experience awesome.
+# terminal, shell, and other tips
 
 This document is oriented toward macOS users, though large parts of it will apply to *nix in general.
 
-## Install these programs.
+## install these programs.
 
 1. Homebrew, a package manager for macOS: https://brew.sh/
 1. iTerm2, a modern replacement for the default terminal: `brew cask install iterm2`
@@ -13,14 +13,14 @@ This document is oriented toward macOS users, though large parts of it will appl
 1. tig, a better way to visualize Git history: `brew install tig`
 1. `brew install zsh-syntax-highlighting`
 
-## Configure iTerm2.
+## configure iTerm2.
 
 1. Change the theme: first import the .itermcolors file (iTerm > Preferences > Profiles > Colors > Color Presets > Import), then switch to it
 1. Install Powerline fonts (see the shell script code in the README): https://github.com/powerline/fonts
 1. Change the font: iTerm > Preferences > Profiles > Text > 18pt Roboto Mono Medium for Powerline
 1. (Hint: set IntelliJ or other IDEs/editors to the same font)
 
-## General tips
+## general tips
 
 * `top -o cpu` runs top sorting by most-CPU-usage first
 * `tig` visualizes Git history in a better way
@@ -38,7 +38,7 @@ This document is oriented toward macOS users, though large parts of it will appl
 * `%s/<your phrase>//gn` in Vim counts the number of matches for a search
 * `\c` in a `/` search will do case-insensitive searching
 
-## Git / GitHub
+## Git and GitHub
 
 * Show diff when you've already staged commits: `git diff HEAD^1`
 * Registers
@@ -50,7 +50,7 @@ This document is oriented toward macOS users, though large parts of it will appl
 * `git checkout -- .` to clean all unstaged in current dir
 * `t` key to do file search in a repo
 
-## zsh
+## Zsh
 
 * `alias` list aliases
 * `cd` does `cd ~`
