@@ -10,7 +10,6 @@ This document is oriented toward macOS users, though large parts of it will appl
 1. Oh My Zsh, a framework for managing zsh: https://ohmyz.sh/
 1. zsh-autosuggestions: `git clone https://github.com/zsh-users/zsh-autosuggestions ~/.zsh/zsh-autosuggestions`
 1. powerlevel9k theme for zsh (installed oh-my-zsh style): `git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k`
-1. tldr, a more useful alernative to man pages: `npm install -g tldr`
 1. tig, a better way to visualize Git history: `brew install tig`
 1. `brew install zsh-syntax-highlighting`
 
@@ -23,14 +22,11 @@ This document is oriented toward macOS users, though large parts of it will appl
 
 ## General tips
 
-* `dirs -v` in zsh lists the most recent 20 directories
 * `top -o cpu` runs top sorting by most-CPU-usage first
 * `tig` visualizes Git history in a better way
 * `esc` and `i` on the commandline enters and exits vi-mode to edit your commandline
 * To run a Bash command as it would run in Bash (instead of zsh): `bash -c <your command and args>`
-* Get more useful help with tldr: `tldr <command>`
 * You can copy text into the macOS clipboard buffer by simply highlighting text with the mouse in iTerm2
-* `CTRL-U` clears the current line without sending a SIGINT as `CTRL-C` would do
 * `grep search_term -r .` recursively searches for a string in files in the current directory
 
 ## Vim
@@ -40,12 +36,23 @@ This document is oriented toward macOS users, though large parts of it will appl
   2. `ctrl w w` to switch between panes
   3. `:qa` to quit all panes
 * `%s/<your phrase>//gn` in Vim counts the number of matches for a search
+* `\c` in a `/` search will do case-insensitive searching
+
+## Git / GitHub
+
+* Show diff when you've already staged commits: `git diff HEAD^1`
+* Registers
+  * copy `"<key>y`
+  * paste `"<key>p`
+  * list `:reg`
+  * list specific `:reg a b c`
+  * \* is system register
+* `git checkout -- .` to clean all unstaged in current dir
+* `t` key to do file search in a repo
 
 ## zsh
 
 * `alias` list aliases
-* `~` cd ~
-* `...`, `....`, etc. cd up n-1 dirs
-* `la` ls -lAh
+* `cd` does `cd ~`
 * `d` dirs -v | head -10 (list most recent 10 dirs)
-* `1`, `2`, `3`, etc. changes to that number in the `dir -v` history
+  * `1`, `2`, `3`, etc. changes to that number in the `dir -v` history
