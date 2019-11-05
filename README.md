@@ -2,7 +2,7 @@
 
 This document is oriented toward macOS users, though large parts of it will apply to *nix in general.
 
-## install these programs.
+## install these programs
 
 1. Homebrew, a package manager for macOS: https://brew.sh/
 1. iTerm2, a modern replacement for the default terminal: `brew cask install iterm2`
@@ -13,7 +13,7 @@ This document is oriented toward macOS users, though large parts of it will appl
 1. tig, a better way to visualize Git history: `brew install tig`
 1. `brew install zsh-syntax-highlighting`
 
-## configure iTerm2.
+## configure iTerm2
 
 1. Change the theme: first import the .itermcolors file (iTerm > Preferences > Profiles > Colors > Color Presets > Import), then switch to it
 1. Install Powerline fonts (see the shell script code in the README): https://github.com/powerline/fonts
