@@ -5,13 +5,13 @@ export ZSH="/Users/$(whoami)/.oh-my-zsh"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 plugins=(
   git
-  last-working-dir
   vi-mode
 )
 
 source $ZSH/oh-my-zsh.sh
 source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 source /usr/local/opt/powerlevel9k/powerlevel9k.zsh-theme
+source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 ZSH_THEME="powerlevel9k/powerlevel9k"
@@ -29,5 +29,4 @@ bindkey '^u' kill-whole-line
 alias c='clear'
 alias h='history'
 alias l='la'
-
-source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+alias gmaster='git checkout master && git fetch origin && git merge origin/master'
